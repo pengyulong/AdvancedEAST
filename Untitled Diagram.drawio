@@ -1,1 +1,75 @@
-<mxfile host="app.diagrams.net" modified="2021-01-12T04:22:05.290Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" version="14.1.8" etag="mFd7W4WCm_9AnVWwRI0u" type="github"><diagram id="vlAPESZOzwuQ8jrP6unr">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-01-12T09:03:50.060Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="Dhzo1sS2xfqx952DE6YM" version="14.1.8" type="github">
+  <diagram id="vlAPESZOzwuQ8jrP6unr" name="Page-1">
+    <mxGraphModel dx="1185" dy="588" grid="1" gridSize="12" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JHHGP-ZJUsyPUkcW2DOm-44" style="edgeStyle=elbowEdgeStyle;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#788AA3;fontColor=#46495D;" edge="1" parent="1" source="JHHGP-ZJUsyPUkcW2DOm-6" target="JHHGP-ZJUsyPUkcW2DOm-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="190" y="360" />
+              <mxPoint x="200" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JHHGP-ZJUsyPUkcW2DOm-9" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#788AA3;fontColor=#46495D;" edge="1" parent="1" source="JHHGP-ZJUsyPUkcW2DOm-1" target="JHHGP-ZJUsyPUkcW2DOm-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JHHGP-ZJUsyPUkcW2DOm-1" value="开始" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" parent="1">
+          <mxGeometry x="17" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JHHGP-ZJUsyPUkcW2DOm-13" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#788AA3;fontColor=#46495D;" edge="1" parent="1" source="JHHGP-ZJUsyPUkcW2DOm-2" target="JHHGP-ZJUsyPUkcW2DOm-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JHHGP-ZJUsyPUkcW2DOm-2" value="数据预处理" style="whiteSpace=wrap;html=1;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" parent="1">
+          <mxGeometry x="241" y="70" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JHHGP-ZJUsyPUkcW2DOm-19" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#788AA3;fontColor=#46495D;" edge="1" parent="1" source="JHHGP-ZJUsyPUkcW2DOm-3" target="JHHGP-ZJUsyPUkcW2DOm-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JHHGP-ZJUsyPUkcW2DOm-3" value="是否检测当天的睡眠序列" style="rhombus;whiteSpace=wrap;html=1;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" parent="1">
+          <mxGeometry x="241" y="170" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JHHGP-ZJUsyPUkcW2DOm-15" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#788AA3;fontColor=#46495D;" edge="1" parent="1" source="JHHGP-ZJUsyPUkcW2DOm-4" target="JHHGP-ZJUsyPUkcW2DOm-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JHHGP-ZJUsyPUkcW2DOm-4" value="排除“LeaveHome”的序列" style="whiteSpace=wrap;html=1;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" parent="1">
+          <mxGeometry x="241" y="290" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JHHGP-ZJUsyPUkcW2DOm-18" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#788AA3;fontColor=#46495D;" edge="1" parent="1" source="JHHGP-ZJUsyPUkcW2DOm-5" target="JHHGP-ZJUsyPUkcW2DOm-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JHHGP-ZJUsyPUkcW2DOm-5" value="检查相邻间隔是否出现手动解锁" style="whiteSpace=wrap;html=1;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" parent="1">
+          <mxGeometry x="241" y="392" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JHHGP-ZJUsyPUkcW2DOm-6" value="按规则合并相邻间隔" style="whiteSpace=wrap;html=1;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" parent="1">
+          <mxGeometry x="241" y="500" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JHHGP-ZJUsyPUkcW2DOm-27" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#788AA3;fontColor=#46495D;" edge="1" parent="1" source="JHHGP-ZJUsyPUkcW2DOm-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="690" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JHHGP-ZJUsyPUkcW2DOm-7" value="预测用户睡眠时间" style="whiteSpace=wrap;html=1;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" parent="1">
+          <mxGeometry x="520" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JHHGP-ZJUsyPUkcW2DOm-38" value="用户睡眠序列检测&#xa;&#xa;" style="rounded=1;arcSize=10;dashed=1;fillColor=none;strokeWidth=2;sketch=0;align=center;verticalAlign=top;fontStyle=1;fontSize=14;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" parent="1">
+          <mxGeometry x="156" y="20" width="336" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="JHHGP-ZJUsyPUkcW2DOm-42" value="结束" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;fontSize=12;align=center;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" parent="1">
+          <mxGeometry x="690" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JHHGP-ZJUsyPUkcW2DOm-14" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#788AA3;fontColor=#46495D;" edge="1" parent="1" source="JHHGP-ZJUsyPUkcW2DOm-3" target="JHHGP-ZJUsyPUkcW2DOm-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JHHGP-ZJUsyPUkcW2DOm-45" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;fontColor=#46495D;" vertex="1" parent="1">
+          <mxGeometry x="446" y="190" width="36" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="JHHGP-ZJUsyPUkcW2DOm-46" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;fontColor=#46495D;" vertex="1" parent="1">
+          <mxGeometry x="343" y="252" width="36" height="24" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
